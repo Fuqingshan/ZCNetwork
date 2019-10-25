@@ -6,6 +6,6 @@ target 'ZCNetwork' do
   use_frameworks!
   
   # Pods for ZCNetwork
-  pod 'ReactiveObjC'
-  pod 'AFNetworking'
+  pod 'ReactiveObjC',"~> 3.1.1"
+  pod 'AFNetworking',"~> 3.2.1"
 end

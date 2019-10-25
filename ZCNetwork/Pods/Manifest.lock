@@ -17,8 +17,8 @@ PODS:
   - ReactiveObjC (3.1.1)
 
 DEPENDENCIES:
-  - AFNetworking
-  - ReactiveObjC
+  - AFNetworking (~> 3.2.1)
+  - ReactiveObjC (~> 3.1.1)
 
 SPEC REPOS:
   trunk:
@@ -29,6 +29,6 @@ SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
 
-PODFILE CHECKSUM: 94c1bf52c71bdc241db361af768adbfada3d0447
+PODFILE CHECKSUM: 251f6e9c237aee34c97123a1b5bc724d0b6f989d
 
 COCOAPODS: 1.8.3
