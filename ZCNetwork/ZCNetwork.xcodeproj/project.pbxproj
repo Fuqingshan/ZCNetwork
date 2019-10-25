@@ -14,14 +14,14 @@
 		81046F0F23629C45000223FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81046F0E23629C45000223FD /* Assets.xcassets */; };
 		81046F1223629C45000223FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81046F1023629C45000223FD /* LaunchScreen.storyboard */; };
 		81046F1523629C45000223FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 81046F1423629C45000223FD /* main.m */; };
-		81046F3223629C57000223FD /* ZCJSONResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 81046F1F23629C57000223FD /* ZCJSONResponseSerializer.m */; };
-		81046F3323629C57000223FD /* ZCJSONRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 81046F2023629C57000223FD /* ZCJSONRequestSerializer.m */; };
-		81046F3423629C57000223FD /* ZCHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81046F2423629C57000223FD /* ZCHTTPSessionManager.m */; };
-		81046F3523629C57000223FD /* ZCBaseAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 81046F2823629C57000223FD /* ZCBaseAPI.m */; };
-		81046F3623629C57000223FD /* ZCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 81046F2B23629C57000223FD /* ZCHelper.m */; };
-		81046F3723629C57000223FD /* ZCFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 81046F2D23629C57000223FD /* ZCFileModel.m */; };
-		81046F3823629C57000223FD /* ZCCommonCookies.m in Sources */ = {isa = PBXBuildFile; fileRef = 81046F3023629C57000223FD /* ZCCommonCookies.m */; };
 		81046F3B23629C6F000223FD /* TestDownloadAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 81046F3923629C6F000223FD /* TestDownloadAPI.m */; };
+		81046F522362E4F7000223FD /* ZCJSONResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 81046F402362E4F7000223FD /* ZCJSONResponseSerializer.m */; };
+		81046F532362E4F7000223FD /* ZCJSONRequestSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 81046F412362E4F7000223FD /* ZCJSONRequestSerializer.m */; };
+		81046F542362E4F7000223FD /* ZCBaseAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 81046F432362E4F7000223FD /* ZCBaseAPI.m */; };
+		81046F552362E4F7000223FD /* ZCHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 81046F442362E4F7000223FD /* ZCHTTPSessionManager.m */; };
+		81046F562362E4F7000223FD /* ZCFileModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 81046F472362E4F7000223FD /* ZCFileModel.m */; };
+		81046F572362E4F7000223FD /* ZCHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 81046F4C2362E4F7000223FD /* ZCHelper.m */; };
+		81046F582362E4F7000223FD /* ZCCommonCookies.m in Sources */ = {isa = PBXBuildFile; fileRef = 81046F4F2362E4F7000223FD /* ZCCommonCookies.m */; };
 		FEDAAEC93A88D0DF8461713D /* Pods_ZCNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D91F0E09E17A5F32120B3C9 /* Pods_ZCNetwork.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,24 +40,24 @@
 		81046F1123629C45000223FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		81046F1323629C45000223FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81046F1423629C45000223FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		81046F1D23629C57000223FD /* ZCJSONResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCJSONResponseSerializer.h; sourceTree = "<group>"; };
-		81046F1E23629C57000223FD /* ZCJSONRequestSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCJSONRequestSerializer.h; sourceTree = "<group>"; };
-		81046F1F23629C57000223FD /* ZCJSONResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCJSONResponseSerializer.m; sourceTree = "<group>"; };
-		81046F2023629C57000223FD /* ZCJSONRequestSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCJSONRequestSerializer.m; sourceTree = "<group>"; };
-		81046F2123629C57000223FD /* ZCNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNetwork.h; sourceTree = "<group>"; };
-		81046F2423629C57000223FD /* ZCHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCHTTPSessionManager.m; sourceTree = "<group>"; };
-		81046F2523629C57000223FD /* ZCHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCHTTPSessionManager.h; sourceTree = "<group>"; };
-		81046F2623629C57000223FD /* ZCNetworkDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNetworkDefine.h; sourceTree = "<group>"; };
-		81046F2823629C57000223FD /* ZCBaseAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCBaseAPI.m; sourceTree = "<group>"; };
-		81046F2923629C57000223FD /* ZCBaseAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCBaseAPI.h; sourceTree = "<group>"; };
-		81046F2B23629C57000223FD /* ZCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCHelper.m; sourceTree = "<group>"; };
-		81046F2C23629C57000223FD /* ZCFileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCFileModel.h; sourceTree = "<group>"; };
-		81046F2D23629C57000223FD /* ZCFileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCFileModel.m; sourceTree = "<group>"; };
-		81046F2E23629C57000223FD /* ZCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCHelper.h; sourceTree = "<group>"; };
-		81046F3023629C57000223FD /* ZCCommonCookies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCommonCookies.m; sourceTree = "<group>"; };
-		81046F3123629C57000223FD /* ZCCommonCookies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCommonCookies.h; sourceTree = "<group>"; };
 		81046F3923629C6F000223FD /* TestDownloadAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestDownloadAPI.m; sourceTree = "<group>"; };
 		81046F3A23629C6F000223FD /* TestDownloadAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestDownloadAPI.h; sourceTree = "<group>"; };
+		81046F3E2362E4F7000223FD /* ZCJSONResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCJSONResponseSerializer.h; sourceTree = "<group>"; };
+		81046F3F2362E4F7000223FD /* ZCJSONRequestSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCJSONRequestSerializer.h; sourceTree = "<group>"; };
+		81046F402362E4F7000223FD /* ZCJSONResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCJSONResponseSerializer.m; sourceTree = "<group>"; };
+		81046F412362E4F7000223FD /* ZCJSONRequestSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCJSONRequestSerializer.m; sourceTree = "<group>"; };
+		81046F432362E4F7000223FD /* ZCBaseAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCBaseAPI.m; sourceTree = "<group>"; };
+		81046F442362E4F7000223FD /* ZCHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCHTTPSessionManager.m; sourceTree = "<group>"; };
+		81046F452362E4F7000223FD /* ZCFileModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCFileModel.h; sourceTree = "<group>"; };
+		81046F462362E4F7000223FD /* ZCBaseAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCBaseAPI.h; sourceTree = "<group>"; };
+		81046F472362E4F7000223FD /* ZCFileModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCFileModel.m; sourceTree = "<group>"; };
+		81046F482362E4F7000223FD /* ZCHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCHTTPSessionManager.h; sourceTree = "<group>"; };
+		81046F492362E4F7000223FD /* ZCNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNetwork.h; sourceTree = "<group>"; };
+		81046F4A2362E4F7000223FD /* ZCNetworkDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCNetworkDefine.h; sourceTree = "<group>"; };
+		81046F4C2362E4F7000223FD /* ZCHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCHelper.m; sourceTree = "<group>"; };
+		81046F4D2362E4F7000223FD /* ZCHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCHelper.h; sourceTree = "<group>"; };
+		81046F4F2362E4F7000223FD /* ZCCommonCookies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCCommonCookies.m; sourceTree = "<group>"; };
+		81046F502362E4F7000223FD /* ZCCommonCookies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCCommonCookies.h; sourceTree = "<group>"; };
 		C6AFA8E7D4DBCA05F0CC0320 /* Pods-ZCNetwork.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZCNetwork.release.xcconfig"; path = "Target Support Files/Pods-ZCNetwork/Pods-ZCNetwork.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,7 +102,7 @@
 				81046F0923629C43000223FD /* ViewController.m */,
 				81046F3A23629C6F000223FD /* TestDownloadAPI.h */,
 				81046F3923629C6F000223FD /* TestDownloadAPI.m */,
-				81046F1B23629C57000223FD /* HTTPNetwork */,
+				81046F3C2362E4F7000223FD /* HTTPNetwork */,
 				81046F0B23629C44000223FD /* Main.storyboard */,
 				81046F0E23629C45000223FD /* Assets.xcassets */,
 				81046F1023629C45000223FD /* LaunchScreen.storyboard */,
@@ -112,75 +112,67 @@
 			path = ZCNetwork;
 			sourceTree = "<group>";
 		};
-		81046F1B23629C57000223FD /* HTTPNetwork */ = {
+		81046F3C2362E4F7000223FD /* HTTPNetwork */ = {
 			isa = PBXGroup;
 			children = (
-				81046F1C23629C57000223FD /* Serializer */,
-				81046F2123629C57000223FD /* ZCNetwork.h */,
-				81046F2223629C57000223FD /* Scoket */,
-				81046F2323629C57000223FD /* Manager */,
-				81046F2623629C57000223FD /* ZCNetworkDefine.h */,
-				81046F2723629C57000223FD /* API */,
-				81046F2A23629C57000223FD /* Helper */,
-				81046F2F23629C57000223FD /* Cookies */,
+				81046F3D2362E4F7000223FD /* Serializer */,
+				81046F422362E4F7000223FD /* URLSession */,
+				81046F492362E4F7000223FD /* ZCNetwork.h */,
+				81046F4A2362E4F7000223FD /* ZCNetworkDefine.h */,
+				81046F4B2362E4F7000223FD /* Helper */,
+				81046F4E2362E4F7000223FD /* Cookies */,
+				81046F512362E4F7000223FD /* Socket */,
 			);
 			path = HTTPNetwork;
 			sourceTree = "<group>";
 		};
-		81046F1C23629C57000223FD /* Serializer */ = {
+		81046F3D2362E4F7000223FD /* Serializer */ = {
 			isa = PBXGroup;
 			children = (
-				81046F1D23629C57000223FD /* ZCJSONResponseSerializer.h */,
-				81046F1E23629C57000223FD /* ZCJSONRequestSerializer.h */,
-				81046F1F23629C57000223FD /* ZCJSONResponseSerializer.m */,
-				81046F2023629C57000223FD /* ZCJSONRequestSerializer.m */,
+				81046F3E2362E4F7000223FD /* ZCJSONResponseSerializer.h */,
+				81046F3F2362E4F7000223FD /* ZCJSONRequestSerializer.h */,
+				81046F402362E4F7000223FD /* ZCJSONResponseSerializer.m */,
+				81046F412362E4F7000223FD /* ZCJSONRequestSerializer.m */,
 			);
 			path = Serializer;
 			sourceTree = "<group>";
 		};
-		81046F2223629C57000223FD /* Scoket */ = {
+		81046F422362E4F7000223FD /* URLSession */ = {
 			isa = PBXGroup;
 			children = (
+				81046F432362E4F7000223FD /* ZCBaseAPI.m */,
+				81046F442362E4F7000223FD /* ZCHTTPSessionManager.m */,
+				81046F452362E4F7000223FD /* ZCFileModel.h */,
+				81046F462362E4F7000223FD /* ZCBaseAPI.h */,
+				81046F472362E4F7000223FD /* ZCFileModel.m */,
+				81046F482362E4F7000223FD /* ZCHTTPSessionManager.h */,
 			);
-			path = Scoket;
+			path = URLSession;
 			sourceTree = "<group>";
 		};
-		81046F2323629C57000223FD /* Manager */ = {
+		81046F4B2362E4F7000223FD /* Helper */ = {
 			isa = PBXGroup;
 			children = (
-				81046F2423629C57000223FD /* ZCHTTPSessionManager.m */,
-				81046F2523629C57000223FD /* ZCHTTPSessionManager.h */,
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		81046F2723629C57000223FD /* API */ = {
-			isa = PBXGroup;
-			children = (
-				81046F2823629C57000223FD /* ZCBaseAPI.m */,
-				81046F2923629C57000223FD /* ZCBaseAPI.h */,
-			);
-			path = API;
-			sourceTree = "<group>";
-		};
-		81046F2A23629C57000223FD /* Helper */ = {
-			isa = PBXGroup;
-			children = (
-				81046F2B23629C57000223FD /* ZCHelper.m */,
-				81046F2C23629C57000223FD /* ZCFileModel.h */,
-				81046F2D23629C57000223FD /* ZCFileModel.m */,
-				81046F2E23629C57000223FD /* ZCHelper.h */,
+				81046F4C2362E4F7000223FD /* ZCHelper.m */,
+				81046F4D2362E4F7000223FD /* ZCHelper.h */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
 		};
-		81046F2F23629C57000223FD /* Cookies */ = {
+		81046F4E2362E4F7000223FD /* Cookies */ = {
 			isa = PBXGroup;
 			children = (
-				81046F3023629C57000223FD /* ZCCommonCookies.m */,
-				81046F3123629C57000223FD /* ZCCommonCookies.h */,
+				81046F4F2362E4F7000223FD /* ZCCommonCookies.m */,
+				81046F502362E4F7000223FD /* ZCCommonCookies.h */,
 			);
 			path = Cookies;
+			sourceTree = "<group>";
+		};
+		81046F512362E4F7000223FD /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Socket;
 			sourceTree = "<group>";
 		};
 		A4802B2309A916494331D6DB /* Frameworks */ = {
@@ -314,18 +306,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				81046F3723629C57000223FD /* ZCFileModel.m in Sources */,
-				81046F3523629C57000223FD /* ZCBaseAPI.m in Sources */,
+				81046F562362E4F7000223FD /* ZCFileModel.m in Sources */,
+				81046F542362E4F7000223FD /* ZCBaseAPI.m in Sources */,
+				81046F552362E4F7000223FD /* ZCHTTPSessionManager.m in Sources */,
+				81046F572362E4F7000223FD /* ZCHelper.m in Sources */,
 				81046F0A23629C44000223FD /* ViewController.m in Sources */,
-				81046F3223629C57000223FD /* ZCJSONResponseSerializer.m in Sources */,
-				81046F3323629C57000223FD /* ZCJSONRequestSerializer.m in Sources */,
 				81046F0423629C43000223FD /* AppDelegate.m in Sources */,
-				81046F3623629C57000223FD /* ZCHelper.m in Sources */,
-				81046F3423629C57000223FD /* ZCHTTPSessionManager.m in Sources */,
 				81046F1523629C45000223FD /* main.m in Sources */,
+				81046F522362E4F7000223FD /* ZCJSONResponseSerializer.m in Sources */,
 				81046F0723629C43000223FD /* SceneDelegate.m in Sources */,
 				81046F3B23629C6F000223FD /* TestDownloadAPI.m in Sources */,
-				81046F3823629C57000223FD /* ZCCommonCookies.m in Sources */,
+				81046F532362E4F7000223FD /* ZCJSONRequestSerializer.m in Sources */,
+				81046F582362E4F7000223FD /* ZCCommonCookies.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
