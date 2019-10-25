@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ZCNetwork"
-  spec.version      = "0.0.6"
+  spec.version      = "0.0.7"
   spec.summary      = "a network package by AFNetworking."
 
   # This description is used to generate tags and improve search results.
@@ -41,11 +41,13 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'Serializer' do |ss|
   	ss.source_files = 'ZCNetwork/ZCNetwork/HTTPNetwork/Serializer/*.{h,m}'
+	ss.private_header_files = 'ZCNetwork/ZCNetwork/HTTPNetwork/Serializer/*.h'
 	ss.dependency 'ZCNetwork/Helper'
   end
   
   spec.subspec 'URLSession' do |ss|
   	ss.source_files = 'ZCNetwork/ZCNetwork/HTTPNetwork/URLSession/*.{h,m}'
+	ss.public_header_files = 'ZCNetwork/ZCNetwork/HTTPNetwork/URLSession/{ZCHTTPSessionManager,ZCBaseAPI,ZCFileModel}.h'
         ss.dependency 'ZCNetwork/Serializer'
 	ss.dependency 'ZCNetwork/Helper'
   end
@@ -56,6 +58,7 @@ Pod::Spec.new do |spec|
 
   spec.subspec 'Helper' do |ss|
   	ss.source_files = 'ZCNetwork/ZCNetwork/HTTPNetwork/{Cookies,Helper}/*.{h,m}','ZCNetwork/ZCNetwork/HTTPNetwork/ZCNetworkDefine.h'
+	ss.private_header_files = 'ZCNetwork/ZCNetwork/HTTPNetwork/{Cookies,Helper}/*.h','ZCNetwork/ZCNetwork/HTTPNetwork/ZCNetworkDefine.h'
   end
 
   spec.dependency "ReactiveObjC", "~> 3.1.1"
