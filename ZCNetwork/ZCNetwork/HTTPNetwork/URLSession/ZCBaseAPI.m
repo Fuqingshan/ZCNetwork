@@ -19,7 +19,7 @@ NSString * const ZCHTTPMethod_UPLOAD = @"UPLOAD";
 NSString * const ZCHTTPMethod_DOWNLOAD = @"DOWNLOAD";
 
 @interface ZCBaseAPI()
-@property (nonatomic, strong) AFHTTPSessionManager *manager;
+@property (nonatomic, strong, readwrite) AFHTTPSessionManager *manager;
 
 @end
 
