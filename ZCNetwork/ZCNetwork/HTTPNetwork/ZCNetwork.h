@@ -11,5 +11,7 @@
 
 #import "ZCBaseAPI.h"
 #import "ZCFileModel.h"
+#import "ZCJSONRequestSerializer.h"
+#import "ZCJSONResponseSerializer.h"
 
 #endif /* ZCNetwork_h */
