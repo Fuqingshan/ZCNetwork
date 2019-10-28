@@ -20,6 +20,7 @@ NSString * const ZCHTTPMethod_DOWNLOAD = @"DOWNLOAD";
 
 @interface ZCBaseAPI()
 @property (nonatomic, strong, readwrite) AFHTTPSessionManager *manager;
+@property (nonatomic, weak, readwrite) NSURLSessionTask *currentTask;
 
 @end
 
@@ -36,7 +37,7 @@ NSString * const ZCHTTPMethod_DOWNLOAD = @"DOWNLOAD";
     self = [super init];
     if (self) {
         self.manager = [self httpSessionManager];
-        self.mothod = ZCHTTPMethod_POST;
+        self.method = ZCHTTPMethod_POST;
         self.commonCookies = [ZCCommonCookies commonCookies];
     }
     return self;
@@ -200,7 +201,7 @@ NSString * const ZCHTTPMethod_DOWNLOAD = @"DOWNLOAD";
             ];
             
             NSURLSessionTask * task = nil;
-            NSInteger index = [requestMethods indexOfObject:self.mothod];
+            NSInteger index = [requestMethods indexOfObject:self.method];
             switch (index) {
                 case 0:
                     task = [self getRequest:params subscriber:subscriber];
@@ -219,6 +220,7 @@ NSString * const ZCHTTPMethod_DOWNLOAD = @"DOWNLOAD";
                     break;
             }
             
+            self.currentTask = task;
             return [RACDisposable disposableWithBlock:^{
                 [task cancel];
             }];

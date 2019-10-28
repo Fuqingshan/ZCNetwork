@@ -17,8 +17,9 @@ FOUNDATION_EXTERN NSString * const ZCHTTPMethod_DOWNLOAD;
 
 @interface ZCBaseAPI : NSObject
 @property (nonatomic, strong, readonly) AFHTTPSessionManager *manager;
+@property (nonatomic, weak, readonly) NSURLSessionTask *currentTask;
 
-@property (nonatomic, copy) NSString *mothod;///<HTTPMethod, default is GET
+@property (nonatomic, copy) NSString *method;///<HTTPMethod, default is GET
 @property (nonatomic, copy) NSDictionary *commonCookies;///<default cookies
 @property (nonatomic, assign) NSTimeInterval timeoutInterval;///< set timeout, default is 10s
 
