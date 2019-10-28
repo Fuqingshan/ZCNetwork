@@ -27,9 +27,7 @@ NSString * const ZCHTTPMethod_DOWNLOAD = @"DOWNLOAD";
 @implementation ZCBaseAPI
 
 - (void)dealloc{
-#ifdef DEBUG
-    NSLog(@"%s",__FUNCTION__);
-#endif
+//    NSLog(@"%s",__FUNCTION__);
 }
 
 - (instancetype)init
@@ -114,9 +112,7 @@ NSString * const ZCHTTPMethod_DOWNLOAD = @"DOWNLOAD";
                                         if (file.fileURL) {
                                             NSError *error;
                                             [formData appendPartWithFileURL:file.fileURL name:file.name fileName:file.fileName mimeType:file.mimeType error:&error];
-                            #ifdef DEBUG
                                             NSLog(@"upload error with fileURL：%@\n des: %@",file.fileURL,error);
-                            #endif
                                         }else if (file.fileData){
                                             [formData appendPartWithFileData:file.fileData name:file.name fileName:file.fileName mimeType:file.mimeType];
                                         }
