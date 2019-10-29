@@ -21,6 +21,14 @@
 
 - (void)setMode:(ZCPinningMode)mode{
     switch (mode) {
+        case ZCPinningModeDefault:
+        {
+            self.securityPolicy.allowInvalidCertificates = NO;
+            self.securityPolicy.validatesDomainName = YES;
+            AFSecurityPolicy *securityPolicy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone];
+            self.securityPolicy = securityPolicy;
+        }
+            break;
         case ZCPinningModeNone:
         {
             self.securityPolicy.allowInvalidCertificates = YES;
