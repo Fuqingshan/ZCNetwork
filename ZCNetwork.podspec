@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "ZCNetwork"
-  spec.version      = "0.1.3"
+  spec.version      = "0.1.4"
   spec.summary      = "a network package by AFNetworking."
 
   # This description is used to generate tags and improve search results.
